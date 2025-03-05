@@ -5,10 +5,10 @@ This project aims to predict real estate prices based on various features like c
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Project Structure](#project-structure)
-3. [Usage](#usage)
-4. [Model](#model)
-5. [Technologies Used](#technologies-used)
+2. [Usage](#usage)
+3. [Model](#model)
+4. [Technology Stack](#technologies-stack)
+5. [Key Achievements](#key-achievements)
 6. [License](#license)
 
 ## Installation
@@ -61,7 +61,7 @@ This will launch the FastAPI app locally at http://127.0.0.1:8000.
 
 You can send a POST request with your dataset to the /predict endpoint to get predictions on real estate prices.
 
-## Example cURL Request
+### Example cURL Request
 ```bash
 curl -X POST "http://127.0.0.1:8000/predict" -F "file=@/path/to/your/data.csv"
 ```
@@ -99,8 +99,8 @@ The following features are used for prediction:
 -VS Code: Code editor used for development
 
 ## Key Achievements
-Built a Linear Regression model using Scikit-learn, optimized with GridSearchCV and K-Fold Cross-Validation, leading to a 15% improvement in prediction accuracy.
-Implemented data cleaning, outlier detection and removal, feature engineering, and dimensionality reduction, improving model efficiency by 20%.
+-Built a Linear Regression model using Scikit-learn, optimized with GridSearchCV and K-Fold Cross-Validation, leading to a 15% improvement in prediction accuracy.
+-Implemented data cleaning, outlier detection and removal, feature engineering, and dimensionality reduction, improving model efficiency by 20%.
 
 ## License
 
