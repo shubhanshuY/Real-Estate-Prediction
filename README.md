@@ -99,10 +99,10 @@ The following features are used for prediction:
 -VS Code: Code editor used for development
 ```
 ## Key Achievements
-``
+```
 -Built a Linear Regression model using Scikit-learn, optimized with GridSearchCV and K-Fold Cross-Validation, leading to a 15% improvement in prediction accuracy.
 -Implemented data cleaning, outlier detection and removal, feature engineering, and dimensionality reduction, improving model efficiency by 20%.
-``
+```
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
