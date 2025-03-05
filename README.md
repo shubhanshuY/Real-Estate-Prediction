@@ -72,7 +72,7 @@ Replace /path/to/your/data.csv with the path to your input CSV file.
 The model used in this project is a Linear Regression model. The model is trained to predict the median value of homes (MEDV) based on various features in the dataset.
 
 The following features are used for prediction:
-
+```
 -CRIM: Crime rate
 -ZN: Proportion of residential land zoned for large lots
 -INDUS: Proportion of non-retail business acres per town
@@ -87,9 +87,9 @@ The following features are used for prediction:
 -B: Proportion of residents of African American descent
 -LSTAT: Percentage of lower status population
 -MEDV: Median value of homes (target variable)
-
+```
 ## Technology Stack
-
+```
 -Python: Programming language used for the project
 -Numpy: For numerical computing and mathematical operations
 -Pandas: Data manipulation library
@@ -97,11 +97,12 @@ The following features are used for prediction:
 -Scikit-learn: Machine learning library for model building and evaluation
 -Colab: Google Colaboratory for experimenting with and running models
 -VS Code: Code editor used for development
-
+```
 ## Key Achievements
+```
 -Built a Linear Regression model using Scikit-learn, optimized with GridSearchCV and K-Fold Cross-Validation, leading to a 15% improvement in prediction accuracy.
 -Implemented data cleaning, outlier detection and removal, feature engineering, and dimensionality reduction, improving model efficiency by 20%.
-
+```
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
