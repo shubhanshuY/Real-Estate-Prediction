@@ -42,18 +42,6 @@ Before running the project, ensure you have the following installed on your syst
     pip install -r requirements.txt
     ```
 
-## Project Structure
-
-Real-Estate-Price-Prediction/
-│── data/
-│   ├── housing.csv         # The dataset used for training the model
-│── preprocessing.py        # Preprocessing steps like data cleaning and scaling
-│── train_model.py          # Model training code
-│── app.py                  # FastAPI web app for serving predictions
-│── model.pkl               # Trained machine learning model
-│── requirements.txt        # List of dependencies for the project
-│── README.md               # This file
-
 ## Usage
 To train the model, run the following command in your terminal:
 
@@ -85,30 +73,30 @@ The model used in this project is a Linear Regression model. The model is traine
 
 The following features are used for prediction:
 
-CRIM: Crime rate
-ZN: Proportion of residential land zoned for large lots
-INDUS: Proportion of non-retail business acres per town
-CHAS: Charles River dummy variable
-NOX: Nitrogen oxide concentration
-RM: Average number of rooms per dwelling
-AGE: Proportion of owner-occupied units built before 1940
-DIS: Distance to employment centers
-RAD: Index of accessibility to radial highways
-TAX: Property tax rate
-PTRATIO: Pupil-teacher ratio
-B: Proportion of residents of African American descent
-LSTAT: Percentage of lower status population
-MEDV: Median value of homes (target variable)
+-CRIM: Crime rate
+-ZN: Proportion of residential land zoned for large lots
+-INDUS: Proportion of non-retail business acres per town
+-CHAS: Charles River dummy variable
+-NOX: Nitrogen oxide concentration
+-RM: Average number of rooms per dwelling
+-AGE: Proportion of owner-occupied units built before 1940
+-DIS: Distance to employment centers
+-RAD: Index of accessibility to radial highways
+-TAX: Property tax rate
+-PTRATIO: Pupil-teacher ratio
+-B: Proportion of residents of African American descent
+-LSTAT: Percentage of lower status population
+-MEDV: Median value of homes (target variable)
 
 ## Technology Stack
 
-Python: Programming language used for the project
-Numpy: For numerical computing and mathematical operations
-Pandas: Data manipulation library
-Matplotlib: Data visualization library
-Scikit-learn: Machine learning library for model building and evaluation
-Colab: Google Colaboratory for experimenting with and running models
-VS Code: Code editor used for development
+-Python: Programming language used for the project
+-Numpy: For numerical computing and mathematical operations
+-Pandas: Data manipulation library
+-Matplotlib: Data visualization library
+-Scikit-learn: Machine learning library for model building and evaluation
+-Colab: Google Colaboratory for experimenting with and running models
+-VS Code: Code editor used for development
 
 ## Key Achievements
 Built a Linear Regression model using Scikit-learn, optimized with GridSearchCV and K-Fold Cross-Validation, leading to a 15% improvement in prediction accuracy.
