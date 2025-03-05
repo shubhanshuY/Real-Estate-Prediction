@@ -43,6 +43,7 @@ Before running the project, ensure you have the following installed on your syst
     ```
 
 ## Project Structure
+
 Real-Estate-Price-Prediction/
 │── data/
 │   ├── housing.csv         # The dataset used for training the model
@@ -100,6 +101,7 @@ LSTAT: Percentage of lower status population
 MEDV: Median value of homes (target variable)
 
 ## Technology Stack
+
 Python: Programming language used for the project
 Numpy: For numerical computing and mathematical operations
 Pandas: Data manipulation library
